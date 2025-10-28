@@ -1,0 +1,41 @@
+
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Next.js
+.next/
+out/
+.vercel/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Backend / Hardhat
+backend/node_modules/
+backend/artifacts/
+backend/cache/
+backend/deployments/localhost/
+backend/deployments/*/solcInputs/
+backend/fhevmTemp/
+backend/build/
+coverage/
+
+# Logs
+logs/
+*.log
+
+# Env
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+

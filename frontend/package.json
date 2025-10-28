@@ -1,0 +1,27 @@
+{
+  "name": "private-swap-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "genabi": "node scripts/genabi.mjs"
+  },
+  "dependencies": {
+    "next": "^15.0.3",
+    "react": "^19.0.0-rc.1",
+    "react-dom": "^19.0.0-rc.1",
+    "ethers": "^6.13.4",
+    "idb": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "typescript": "^5.6.3",
+    "@fhevm/mock-utils": "0.1.0"
+  }
+}
+
+
